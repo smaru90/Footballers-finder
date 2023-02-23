@@ -15,7 +15,7 @@ class Players extends Component {
           <p>Argentina</p>
           <p>Striker</p>
           <p>Age: 35</p>
-          <p>Overall: 92</p>
+          <p>Overall: 94</p>
         </div>
         <div className="card-container" key={2}>
           <img
