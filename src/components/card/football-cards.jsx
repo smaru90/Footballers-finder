@@ -37,7 +37,7 @@ class Players extends Component {
           <p>Argentina</p>
           <p>Midfielder</p>
           <p>Age: 21</p>
-          <p>Overall: 81</p>
+          <p>Overall: 82</p>
         </div>
         <div className="card-container" key={4}>
           <img
@@ -48,7 +48,7 @@ class Players extends Component {
           <p>Argentina</p>
           <p>Midfielder</p>
           <p>Age: 28</p>
-          <p>Overall: 84</p>
+          <p>Overall: 83</p>
         </div>
         <div className="card-container" key={5}>
           <img
