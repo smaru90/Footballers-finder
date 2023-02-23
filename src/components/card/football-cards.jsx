@@ -141,7 +141,7 @@ class Players extends Component {
         <div className="card-container" key={13}>
           <img
             src="https://cdn.fifacm.com/content/media/imgs/fifa23/players/p190871.png?v=22"
-            alt="Neymar"
+            alt="Neymar "
           />
           <h2>Neymar</h2>
           <p>Brazil</p>
