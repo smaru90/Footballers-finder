@@ -15,7 +15,7 @@ class Players extends Component {
           <p>Argentina</p>
           <p>Striker</p>
           <p>Age: 35</p>
-          <p>Overall: 94</p>
+          <p>Overall: 92</p>
         </div>
         <div className="card-container" key={2}>
           <img
@@ -37,7 +37,7 @@ class Players extends Component {
           <p>Argentina</p>
           <p>Midfielder</p>
           <p>Age: 21</p>
-          <p>Overall: 82</p>
+          <p>Overall: 81</p>
         </div>
         <div className="card-container" key={4}>
           <img
@@ -48,7 +48,7 @@ class Players extends Component {
           <p>Argentina</p>
           <p>Midfielder</p>
           <p>Age: 28</p>
-          <p>Overall: 83</p>
+          <p>Overall: 84</p>
         </div>
         <div className="card-container" key={5}>
           <img
@@ -141,7 +141,7 @@ class Players extends Component {
         <div className="card-container" key={13}>
           <img
             src="https://cdn.fifacm.com/content/media/imgs/fifa23/players/p190871.png?v=22"
-            alt="Neymar "
+            alt="Neymar"
           />
           <h2>Neymar</h2>
           <p>Brazil</p>

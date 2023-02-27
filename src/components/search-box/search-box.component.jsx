@@ -1,17 +1,14 @@
-import { Component } from "react";
-
 import "../search-box/search-box.styles.css";
 
-class SearchBox extends Component {
-  render() {
-    return (
+const SearchBox = ({ className, placeholder, onChangeHandler }) => (
+     
       <div>
         <div>
           <input
-            className={`search-box ${this.props.className}`}
+            className={`search-box ${ className}`}
             type="search"
-            placeholder={this.props.placeholder}
-            onChange={this.props.onChangeHandler}
+            placeholder={ placeholder}
+            onChange={ onChangeHandler}
           />
         </div>
         <div className="radio-boxes">
@@ -23,7 +20,7 @@ class SearchBox extends Component {
                 id="goalkeeper"
                 name="player-position"
                 value="goalkeeper"
-                onChange={this.props.onChangeHandler}
+                onChange={ onChangeHandler}
               />
               <label for="goalkeeper">Goalkeeper</label>
             </p>
@@ -33,7 +30,7 @@ class SearchBox extends Component {
                 id="defender"
                 name="player-position"
                 value="defender"
-                onChange={this.props.onChangeHandler}
+                onChange={ onChangeHandler}
               />
               <label for="defender">Defender</label>
             </p>
@@ -43,7 +40,7 @@ class SearchBox extends Component {
                 id="midfielder"
                 name="player-position"
                 value="midfielder"
-                onChange={this.props.onChangeHandler}
+                onChange={ onChangeHandler}
               />
               <label for="midfielder">Midfielder</label>
             </p>
@@ -53,7 +50,7 @@ class SearchBox extends Component {
                 id="striker"
                 name="player-position"
                 value="striker"
-                onChange={this.props.onChangeHandler}
+                onChange={ onChangeHandler}
               />
               <label for="striker">Striker</label>
             </p>
@@ -65,9 +62,8 @@ class SearchBox extends Component {
                 type="radio"
                 id="spain"
                 name="player-nationality"
-                value="spain"
-                checked
-                onChange={this.props.onChangeHandler}
+                value="spain"                
+                onChange={ onChangeHandler}
 
                 
               />
@@ -118,8 +114,7 @@ class SearchBox extends Component {
                 type="radio"
                 id="17-21"
                 name="player-age"
-                value="17-21"
-                checked
+                value="17-21"                
               />
               <label for="17-21">17-21</label>
             </p>
@@ -158,8 +153,7 @@ class SearchBox extends Component {
                 type="radio"
                 id="61-70"
                 name="player-skill"
-                value="61-70"
-                checked
+                value="61-70"                
               />
               <label for="61-70">61-70</label>
             </p>
@@ -195,7 +189,5 @@ class SearchBox extends Component {
         <br/>
       </div>
     );
-  }
-}
-
+  
 export default SearchBox;
